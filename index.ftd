@@ -1284,11 +1284,14 @@ text-align: center
 
 
 -- ftd.column blank:
+optional integer move-top:
+optional integer move-bottom:
+boolean move-center: false
+optional string font-size:
 optional integer number:
-if: $slide-no == $number
+if: $PARENT.current == $SIBLING-INDEX
 width: fill
 height: fill
-padding-horizontal if $is-mobile: $fpm.space.space-4
 
 --- ftd.row:
 height: fill
