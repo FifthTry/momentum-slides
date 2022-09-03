@@ -2,7 +2,7 @@
 
 -- fpm.package: fifthtry.github.io/momentum-slides
 zip: github.com/fifthtry/momentum-slides/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/fifthtry/momentum-slides/main
+download-base-url: https://raw.githubusercontent.com/fifthtry/momentum-slides/main
 
 -- fpm.dependency: fifthtry.github.io/package-doc as pd
 -- fpm.dependency: fifthtry.github.io/slides as slides
