@@ -3,12 +3,11 @@
 -- import: fifthtry.github.io/slides as slide
 
 
--- slide.show-full-screen: false
-
 -- slide.presentation:
 bg-color: $fpm.color.main.text-strong
 overlay-bg-color: $fpm.color.main.background.step-1
 embed: false
+show-full-screen: false
 current: 1
 
 
