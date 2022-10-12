@@ -7,53 +7,78 @@
 bg-color: $fpm.color.main.text-strong
 overlay-bg-color: $fpm.color.main.background.step-1
 embed: false
-show-full-screen: false
+show-full-screen: true
 current: 1
 
 
---- slides.title-slide: Add slide title here
-number: 1
-subtitle: Add subtitle here
+--- slides.title-slide: Medium font title of presentation
+title-font: regular
+sub-title-font: medium
+subtitle: Medium font sub-title
 
---- slides.section-header: Add section header here
-number: 2
+--- slides.section-header: Section header with medium font
+title-font: medium
 
---- slides.title-and-body: Add slide title here
-number: 3
+--- slides.title-and-body: Slide title with medium font
+title-font: medium
+body-font: medium
 
-Add body here...
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-- sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+Medium font size of body content
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+2. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+3. Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
---- slides.title-only: Add slide title here
-number: 5
+--- slides.title-and-2-columns: Medium title of 2 columns slide
+title-font: medium
+body-font: medium
 image: $assets.files.image-placeholder.png
 
---- slides.one-column-text: Add slide title here
-number: 6
+Medium size font body here...
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+--- slides.title-only: Slide title with medium font
+title-font: medium
 image: $assets.files.image-placeholder.png
 
-orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-
---- slides.main-point: Add slide title here
-number: 7
-
---- slides.section-title-and-description: Add slide title here
-number: 8
-subtitle: Add subtitle here
+--- slides.one-column-text: Slide title with medium font
+title-font: medium
+body-font:  medium
 image: $assets.files.image-placeholder.png
 
---- slides.caption: Add caption here
-number: 9
+Medium size font body here...
+
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+--- slides.main-point: Slide title with medium font
+title-font: medium
+
+--- slides.section-title-and-description: Medium font section title
+title-font: medium
+sub-title-font: medium
+body-font: medium
+subtitle: Medium font sub title here
+
+Medium font body text.
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+--- slides.caption: Medium font slide caption 
+body-font: medium
 image: $assets.files.image-placeholder.png
 
---- slides.big-number: Add big caption here
-number: 10
-subtitle: Add subtitle here
+--- slides.big-number: Medium font big slide title
+title-font: medium
+sub-title-font: medium
+subtitle: Medium font slide sub title
+
+--- slides.centered: Centered slide with medium font 
+title-font: medium
+sub-title-font: medium
+subtitle: Large font slide sub title
+image: $assets.files.image-placeholder.png
+
+Click on `full-screen` mode `squre` icon to see full-screen view. On `full-screen`
+mode to navigate slides press `left` OR `right` arrow keys to move to left OR 
+right slide.
 
 --- slides.blank: 
-number: 11
